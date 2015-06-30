@@ -38,7 +38,6 @@ hello(luke);
 
 console.log("- - - - - - - - - - -");
 
-// for ... of ... 
-for (var c of characters) {
+for (var c in characters) {
 	console.log(c);
 }
